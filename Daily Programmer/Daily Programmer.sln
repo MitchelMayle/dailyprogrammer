@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game Of Threes", "Game Of Threes\Game Of Threes.csproj", "{92327730-5C7F-4B31-A691-6C0B4F3ADEF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rövarspråket", "Rövarspråket\Rövarspråket.csproj", "{7E081705-D480-4DED-B01A-C4654AF034DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92327730-5C7F-4B31-A691-6C0B4F3ADEF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92327730-5C7F-4B31-A691-6C0B4F3ADEF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92327730-5C7F-4B31-A691-6C0B4F3ADEF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92327730-5C7F-4B31-A691-6C0B4F3ADEF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E081705-D480-4DED-B01A-C4654AF034DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E081705-D480-4DED-B01A-C4654AF034DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E081705-D480-4DED-B01A-C4654AF034DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E081705-D480-4DED-B01A-C4654AF034DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
