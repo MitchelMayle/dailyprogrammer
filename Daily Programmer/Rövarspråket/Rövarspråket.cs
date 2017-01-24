@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Rövarspråket
 {
-    //Challenge description
+    //Challenge description:
 
     // Rövarspråket is not very complicated: you take an ordinary word and replace the consonants with the consonant 
     // doubled and with an "o" in between. So the consonant "b" is replaced by "bob", "r" is replaced with "ror", "s" is 
