@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Letters In Order", "Letters
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfDigits", "SumOfDigits\SumOfDigits.csproj", "{F7953000-099B-4CB6-8833-D5A6CFE074E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieTicketLogic", "MovieTicketLogic\MovieTicketLogic.csproj", "{1DFDE7C1-411C-4B38-A30A-44BC4C0A619D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F7953000-099B-4CB6-8833-D5A6CFE074E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7953000-099B-4CB6-8833-D5A6CFE074E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7953000-099B-4CB6-8833-D5A6CFE074E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DFDE7C1-411C-4B38-A30A-44BC4C0A619D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DFDE7C1-411C-4B38-A30A-44BC4C0A619D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DFDE7C1-411C-4B38-A30A-44BC4C0A619D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DFDE7C1-411C-4B38-A30A-44BC4C0A619D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
