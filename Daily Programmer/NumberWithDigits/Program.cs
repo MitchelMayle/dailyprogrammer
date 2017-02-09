@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MovieTicketLogic
+namespace NumberWithDigits
 {
     class Program
     {
         static void Main(string[] args)
         {
-            
+            Numbers.NumbersWithDigitInside(10, 8);
         }
     }
 }
