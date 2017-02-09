@@ -17,25 +17,41 @@ namespace MovieTicketLogic
     // Line.Tickets(new int[] {25, 25, 50})  => YES
     // Line.Tickets(new int[] {25, 100}) => NO
 
-    // I do not know why this does not work
-
-
     public class Line
     {
         public static string Tickets(int[] peopleInLine)
         {
-            int balance = 0;
-            const int TicketPrice = 25;
+            int twentyFive = 0;
+            int fifty = 0;
 
             for (int i=0; i < peopleInLine.Length; i++)
-            {
-                if (peopleInLine[i] - TicketPrice > balance)
+            {             
+                if (peopleInLine[i] == 25)
+                {
+                    twentyFive++;
+                }
+                else if (peopleInLine[i] == 50 && twentyFive > 0)
+                {
+                    fifty++;
+                    twentyFive--;
+                }
+                else if (peopleInLine[i] == 50 && twentyFive <= 0)
                 {
                     return "NO";
                 }
+
+                else if (peopleInLine[i] == 100 && fifty != 0 && twentyFive != 0)
+                {
+                    fifty--;
+                    twentyFive--;
+                }
+                else if (peopleInLine[i] == 100 && twentyFive > 2)
+                {
+                    twentyFive -= 3;
+                }
                 else
                 {
-                    balance += TicketPrice;           
+                    return "NO";
                 }
             }
             return "YES";
